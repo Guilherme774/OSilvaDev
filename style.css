@@ -5,38 +5,92 @@
     margin: 0;
 }
 
-.font-weight-bold {
-    font-weight: bold;
+body {
+    height: 100vh;
+    background-color: rgb(26, 32, 44);
 }
 
-.home-container {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(26, 32, 44);
+.font-weight-bold {
+    font-weight: bold;
 }
 
 .osilva-principal {
     color: #e2692b;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    height: 80px;
+}
+
+.navbar h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    transition: .2s;
+    margin: 25px;
+    transition: color .3s ease;
+}
+
+.navbar ul li:hover a {
+    color: #e2692b;
+}
+
+.hire-me-button {
+    height: 50px;
+    width: auto;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e2692b;
+    font-size: 16px;
+    transition: background-color .3s ease;
+}
+.hire-me-button:hover {
+    background-color: #bc3f00;
+}
+
+.home-container {
+    width: 100%;
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .silva-hello {
     font-size: 22px;
+    color: #fff;
 }
 
 .silva-title {
     font-size: 90px;
+    color: #fff;
 }
 
 .silva-subtitle {
     font-size: 36px;
+    color: #fff;
 }
 
 .silva-footer {
     font-size: 12px;
     position: absolute;
     bottom: 30px;
+    color: #fff;
 }
