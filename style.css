@@ -20,6 +20,13 @@ body {
     color: #e2692b;
 }
 
+.osilva-title {
+    font-size: 60px;
+    color: #e2692b;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -106,13 +113,6 @@ ul {
     text-align: center;
 }
 
-.skills-title {
-    font-size: 60px;
-    color: #e2692b;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
 .skills-text {
     font-size: 20px;
     color: #fff;
@@ -134,7 +134,21 @@ ul {
     padding: 5px 20px;
     margin-top: 30px;
 }
+
 /* END OF SKILSS*/
+
+
+/* START OF PROJECTS */
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+/* END OF PROJECTS */
 
 
 /* START OF EXPERIENCE */
@@ -148,7 +162,7 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .card-experience {
