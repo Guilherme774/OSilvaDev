@@ -137,6 +137,66 @@ ul {
 /* END OF SKILSS*/
 
 
+/* START OF EXPERIENCE */
+
+.experience-container {
+    width: auto;
+    height: auto;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.card-experience {
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+    width: 500px;
+    height: auto;
+    padding: 40px 40px;
+    border-radius: 8px;
+    -webkit-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+}
+
+.title-card-experience {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sub-title-card-experience {
+    font-size: 20px;
+    color: #fff;
+    opacity: .6;
+}
+
+.time-card-experience {
+    font-size: 16px;
+    color: #fff;
+    opacity: .6;
+}
+
+.skills-experience-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.experience-line {
+    width: 2px;
+    height: 40px;
+    background-color: #e2692b;
+}
+
+/* END OF EXPERIENCE */
+
+
 /* START OF FOOTER */
 
 .silva-footer {
