@@ -149,12 +149,20 @@ ul {
     padding-bottom: 30px;
 }
 
+.projects-line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
 .projects-details {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 .card-projects {
@@ -164,9 +172,7 @@ ul {
     width: 800px;
     border-radius: 8px;
     padding-right: 15px;
-    -webkit-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+    border: 1px solid rgb(26, 32, 44);
 }
 
 .project-img {
@@ -199,15 +205,7 @@ ul {
 .projects-btn-actions {
     margin-top: 35px;
     margin-right: 20px;
-}
-
-.btn-view-project {
-    background-color: #e2692b;
-    padding: 10px 25px;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
+    width: 100%;
 }
 
 .btn-code-project {
@@ -217,6 +215,11 @@ ul {
     font-weight: bold;
     border-radius: 10px;
     border: none;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+.btn-code-project:hover {
+    background-color: #bc3f00;
 }
 
 /* END OF PROJECTS */
@@ -244,9 +247,7 @@ ul {
     height: auto;
     padding: 40px 40px;
     border-radius: 8px;
-    -webkit-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+    border: 1px solid rgb(26, 32, 44);
 }
 
 .title-card-experience {
