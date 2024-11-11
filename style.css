@@ -8,7 +8,8 @@
 
 body {
     height: 100vh;
-    background-color: rgb(26, 32, 44);
+    /* background-color: rgb(26, 32, 44); */
+    background-color: #121212;
     scroll-behavior: smooth;
 }
 
@@ -158,6 +159,11 @@ ul {
     gap: 25px;
 }
 
+.title-card-projects {
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .projects-details {
     display: flex;
     flex-direction: column;
@@ -166,13 +172,15 @@ ul {
 }
 
 .card-projects {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 25px;
+    display: flex;
+    /* grid-template-columns: 1fr 2fr; */
+    flex-direction: column;
+    column-gap: 25px;
     width: 800px;
     border-radius: 8px;
-    padding-right: 15px;
-    border: 1px solid rgb(26, 32, 44);
+    padding: 20px 40px;
+    border: 1px solid rgba(31, 35, 40, .15);
+    border-left: 4px solid #e2692b;
 }
 
 .project-img {
@@ -247,7 +255,7 @@ ul {
     height: auto;
     padding: 40px 40px;
     border-radius: 8px;
-    border: 1px solid rgb(26, 32, 44);
+    border: 1px solid rgba(31, 35, 40, .15);
 }
 
 .title-card-experience {
@@ -277,7 +285,7 @@ ul {
 .experience-line {
     width: 2px;
     height: 40px;
-    background-color: #e2692b;
+    background-color: #6e7781;
 }
 
 /* END OF EXPERIENCE */
