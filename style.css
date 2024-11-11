@@ -8,7 +8,8 @@
 
 body {
     height: 100vh;
-    background-color: rgb(26, 32, 44);
+    /* background-color: rgb(26, 32, 44); */
+    background-color: #121212;
     scroll-behavior: smooth;
 }
 
@@ -18,6 +19,13 @@ body {
 
 .osilva-principal {
     color: #e2692b;
+}
+
+.osilva-title {
+    font-size: 60px;
+    color: #e2692b;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .navbar {
@@ -106,13 +114,6 @@ ul {
     text-align: center;
 }
 
-.skills-title {
-    font-size: 60px;
-    color: #e2692b;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
 .skills-text {
     font-size: 20px;
     color: #fff;
@@ -134,7 +135,102 @@ ul {
     padding: 5px 20px;
     margin-top: 30px;
 }
+
 /* END OF SKILSS*/
+
+
+/* START OF PROJECTS */
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    padding-bottom: 30px;
+}
+
+.projects-line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.title-card-projects {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.projects-details {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-projects {
+    display: flex;
+    /* grid-template-columns: 1fr 2fr; */
+    flex-direction: column;
+    column-gap: 25px;
+    width: 800px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    border: 1px solid rgba(31, 35, 40, .15);
+    border-left: 4px solid #e2692b;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.projects-stack-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.projects-badge {
+    width: auto;
+    height: 20px;
+    border-radius: 15px;
+    background-color: rgba(226, 105, 43, .1);
+    color: #e2692b;
+    padding: 5px 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.projects-btn-actions {
+    margin-top: 35px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.btn-code-project {
+    background-color: #e2692b;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+.btn-code-project:hover {
+    background-color: #bc3f00;
+}
+
+/* END OF PROJECTS */
 
 
 /* START OF EXPERIENCE */
@@ -148,7 +244,7 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .card-experience {
@@ -159,9 +255,7 @@ ul {
     height: auto;
     padding: 40px 40px;
     border-radius: 8px;
-    -webkit-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 55px 0px rgba(0,0,0,0.75);
+    border: 1px solid rgba(31, 35, 40, .15);
 }
 
 .title-card-experience {
@@ -191,7 +285,7 @@ ul {
 .experience-line {
     width: 2px;
     height: 40px;
-    background-color: #e2692b;
+    background-color: #6e7781;
 }
 
 /* END OF EXPERIENCE */
