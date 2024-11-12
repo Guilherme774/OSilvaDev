@@ -278,6 +278,7 @@ ul {
 
 .skills-experience-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -307,3 +308,29 @@ ul {
 }
 
 /* END OF FOOTER */
+
+@media (max-width: 750px) {
+    .items-navbar {
+        display: none;
+    }
+    .home-container {
+        align-items: self-start;
+        margin-left: 30px;
+    }
+    .card-projects {
+        width: 300px;
+    }
+    .card-experience {
+        width: 300px;
+    }
+    .skills-experience-container {
+        display: column;        
+    }
+    .projects-stack-container {
+        display: column !important;
+
+        &.projects-badge {
+            width: 100%;
+        }
+    }
+}
