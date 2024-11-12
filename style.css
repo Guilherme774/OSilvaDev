@@ -60,15 +60,17 @@ ul {
 }
 
 .hire-me-button {
-    height: 50px;
     width: auto;
-    padding: 5px 30px;
+    padding: 12px 40px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     background-color: #e2692b;
     font-size: 16px;
     transition: background-color .3s ease;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
 }
 .hire-me-button:hover {
     background-color: #bc3f00;
@@ -307,3 +309,78 @@ ul {
 }
 
 /* END OF FOOTER */
+
+/* START OF HIRE-ME SECTION */
+
+.hire-container {
+    width: auto;
+    height: auto;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.hire-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.btn-github {
+    background-color: transparent;
+    padding: 15px 45px;
+    color: #6e7781;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid rgba(31, 35, 40, .15);
+    transition: .3s ease;
+    cursor: pointer;
+    font-size: 22px;
+}
+.btn-github:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-linkedin {
+    background-color: #0077B5;
+    padding: 15px 45px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    font-size: 22px;
+}
+.btn-linkedin:hover {
+    background-color: #006193;
+}
+
+.btn-email {
+    background-color: #c71610;
+    padding: 15px 45px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    font-size: 22px;
+}
+.btn-email:hover {
+    background-color: #8f100c;
+}
+
+@media (max-width: 750px) {
+    .btn-github, .btn-linkedin, .btn-email {
+        width: 100%;
+    }
+}
+/* END OF HIRE-ME SECTION */
