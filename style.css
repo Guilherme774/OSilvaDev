@@ -379,9 +379,34 @@ ul {
     background-color: #8f100c;
 }
 
+/* END OF HIRE-ME SECTION */
+
+
 @media (max-width: 750px) {
+    .items-navbar {
+        display: none;
+    }
+    .home-container {
+        align-items: self-start;
+        margin-left: 30px;
+    }
+    .card-projects {
+        width: 300px;
+    }
+    .card-experience {
+        width: 300px;
+    }
+    .skills-experience-container {
+        display: column;        
+    }
+    .projects-stack-container {
+        display: column !important;
+
+        &.projects-badge {
+            width: 100%;
+        }
+    }
     .btn-github, .btn-linkedin, .btn-email {
         width: 100%;
     }
 }
-/* END OF HIRE-ME SECTION */
