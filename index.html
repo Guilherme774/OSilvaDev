@@ -3,9 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="./script.js"></script>
     <title>O'Silva Dev</title>
 </head>
 <body>
+    <div class="navbar">
+        <h2><span class="osilva-principal">O'</span>Silva</h2>
+
+        <ul class="items-navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+        </ul>
+
+        <a class="hire-me-button" href="#hire-me">Hire Me</a>
+    </div>
+
+    <div class="home-container">
+        <span class="silva-hello">Hi There! 👋</span>
+
+        <h1 class="silva-title"><span class="osilva-principal">O'Silva</span> <span class="dev-title">Dev</span></h1>
+        <h3 class="silva-subtitle">
+            Full Stack developer building solutions with
+        </h3>
+        <span class="osilva-principal silva-subtitle font-weight-bold">Javascript</span>
+    </div>
     
+    <div class="skills-container" id="skills">
+        <span class="osilva-title">Skills</span>
+
+        <span class="skills-text">
+            Versatile and adaptable with a passion for solving complex problems and delivering robust solutions. Constantly refining expertise through practical challenges and new technologies, aiming to drive efficient and innovative development.
+            Among its skills are:
+        </span>
+
+        <div class="skills-badge-container">
+            <div class="skills-badge"><span class="skills-badge-text">HTML</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">CSS/SCSS</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">Bootstrap</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">JavaScript</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">TypeScript</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">Angular</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">C#</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">.NET</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">Node.js</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">SQL</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">GIT</span></div>
+            <div class="skills-badge"><span class="skills-badge-text">DevOps</span></div>
+        </div>
+    </div>
+
+    <div class="projects-container" id="projects">
+        <span class="osilva-title">Projects</span>
+        
+        <div class="projects-line">
+            <div class="card-projects">
+                <div class="projects-details">
+                    <span class="title-card-projects">DevLog</span>
+                    <!-- <br> -->
+                    <span class="description-card-projects">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodales molestie erat vel mattis. Integer pharetra sit amet diam et volutpat. 
+                        Donec id malesuada diam. Nunc et ultrices urna. Suspendisse blandit a lectus vitae vulputate. In consequat pretium lectus, ut commodo nulla consequat elementum.
+                    </span>
+    
+                    <div class="projects-stack-container">
+                        <div class="projects-badge"><span class="skills-badge-text">TypeScript</span></div>
+                        <div class="projects-badge"><span class="skills-badge-text">Angular</span></div>
+                        <div class="projects-badge"><span class="skills-badge-text">.NET</span></div>
+                        <div class="projects-badge"><span class="skills-badge-text">SQL</span></div>
+                        <div class="projects-badge"><span class="skills-badge-text">GIT</span></div>
+                    </div>
+    
+                    <div class="projects-btn-actions">
+                        <button class="btn-code-project" onclick="openDevLogProject()">View Source Code</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card-projects">
+                <div class="projects-details">
+                    <span class="title-card-projects">DevLog</span>
+                    <!-- <br> -->
+                    <span class="description-card-projects">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodales molestie erat vel mattis. Integer pharetra sit amet diam et volutpat. 
+                        Donec id malesuada diam. Nunc et ultrices urna. Suspendisse blandit a lectus vitae vulputate. In consequat pretium lectus, ut commodo nulla consequat elementum.
+                    </span>
+    
+                    <div class="projects-stack-container">
+                        <div class="projects-badge"><span class="skills-badge-text">TypeScript</span></div>
+                        <div class="projects-badge"><span class="skills-badge-text">Angular</span></div>
+                        <div class="projects-badge"><span class="skills-badge-text">.NET</span></div>
+                        <div class="projects-badge"><span class="skills-badge-text">SQL</span></div>
+                        <div class="projects-badge"><span class="skills-badge-text">GIT</span></div>
+                    </div>
+    
+                    <div class="projects-btn-actions">
+                        <button class="btn-code-project" onclick="openDevLogProject()">View Source Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="experience-container" id="experience">
+        <span class="osilva-title">Experience</span>
+
+        
+        <div class="card-experience">
+            <span class="title-card-experience">Full Stack Developer JR</span>
+            <span class="sub-title-card-experience">Writesys Traffic Systems</span>
+            <span class="time-card-experience">July 2024 - Present</span>
+            <span class="description-card-experience"></span>
+
+            <div class="skills-experience-container">
+                <div class="skills-badge"><span class="skills-badge-text">TypeScript</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">Angular</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">.NET</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">SQL</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">GIT</span></div>
+            </div>
+        </div>
+
+        <div class="experience-line"></div>
+
+        <div class="card-experience">
+            <span class="title-card-experience">Full Stack Developer JR</span>
+            <span class="sub-title-card-experience">Lizy Software ERP</span>
+            <span class="time-card-experience">January 2023 - June 2024</span>
+            <span class="description-card-experience"></span>
+
+            <div class="skills-experience-container">
+                <div class="skills-badge"><span class="skills-badge-text">TypeScript</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">Angular</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">Bootstrap</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">.NET</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">GIT</span></div>
+            </div>
+        </div>
+
+        <div class="experience-line"></div>
+
+        <div class="card-experience">
+            <span class="title-card-experience">Software Developer Intern</span>
+            <span class="sub-title-card-experience">Lizy Software ERP</span>
+            <span class="time-card-experience">December 2021 - December 2022</span>
+            <span class="description-card-experience"></span>
+
+            <div class="skills-experience-container">
+                <div class="skills-badge"><span class="skills-badge-text">TypeScript</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">Angular</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">Bootstrap</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">.NET</span></div>
+                <div class="skills-badge"><span class="skills-badge-text">GIT</span></div>
+            </div>
+        </div>
+
+
+
+        <!-- Full Stack Developer JR - Lizy Software ERP January 2023 - June 2024
+        Software Developer Intern - Lizy Software ERP December 2021 - December 2022 -->
+    </div>
+
+    <div class="hire-container" id="hire-me">
+        <span class="osilva-title">Hire-me</span>
+
+        <div class="hire-section">
+            <button class="btn-github" onclick="openGithub()">Github</button>
+            <button class="btn-linkedin" onclick="openLinkedin()">Linkedin</button>
+            <button class="btn-email" onclick="openMailTo()">Email</button>
+        </div>
+    </div>
+
+    <div class="silva-footer">
+        <span class="silva-footer">₢ 2024 - Guilherme Silva</span>
+    </div>
 </body>
 </html>
